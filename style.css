@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins";
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+h1{
+    font-size: 45px;
+    color: tomato;
+}
+
+.text {
+    font-size: 18px;
+    width: 660px;
+}
+
+.moreText {
+    display: none;
+}
+
+.read-more-btn {
+    padding: 10px 30px;
+    background-color: green;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.text.show-more .moreText {
+    display: inline;
+}
+
+.text.show-more .dots {
+    display: none;
+}
